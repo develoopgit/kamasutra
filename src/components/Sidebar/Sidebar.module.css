@@ -1,0 +1,23 @@
+.sidebar{
+    background:rgb(227, 227, 227);
+    border-radius:10px;
+}
+.navigation{
+    /* color:#000; */
+}
+.navigation ul{
+    list-style: none;
+    padding: 15px 25px;
+    margin: 0;
+}
+.navigation ul li{
+    padding:5px 0px
+}
+.navigation ul li a {
+    font-size:18px;
+    text-decoration:none;
+    color:#000;
+}
+.navigation ul li a:hover{
+    opacity:0.4;
+}

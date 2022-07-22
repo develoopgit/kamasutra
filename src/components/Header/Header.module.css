@@ -1,0 +1,13 @@
+.headerWrap{
+    background:rgb(144, 144, 144);
+    display:flex;
+    align-content: center;
+    border-radius: 0 0 10px 10px;
+}
+.logo{
+    width:120px;
+    height:auto;
+}
+.logo img{
+    width:100%;
+}
