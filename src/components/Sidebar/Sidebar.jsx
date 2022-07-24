@@ -1,18 +1,18 @@
-import style from "./Sidebar.module.css"
-
+import s from "./Sidebar.module.css"
+import {Link} from "react-router-dom"
 const Sidebar = () => {
 	return (
-		<aside className={style.sidebar}>
-			<nav className={style.navigation}>
+		<aside className={s.sidebar}>
+			<nav className={s.navigation}>
 				<ul>
 					<li>
-						<a href="#">Profile</a>
+						<Link to="/profile">Profile</Link>
 					</li>
 					<li>
-						<a href="">About us</a>
+						<Link to="/dialogs">Messages</Link>
 					</li>
 					<li>
-						<a href="">Contact us</a>
+						<Link to="/news">News</Link>
 					</li>
 				</ul>
 			</nav>
