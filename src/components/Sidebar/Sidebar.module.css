@@ -21,3 +21,6 @@
 .navigation ul li a:hover{
     opacity:0.4;
 }
+.navigation ul li a.activeLink{
+    color:blue;
+}

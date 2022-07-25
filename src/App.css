@@ -23,3 +23,8 @@
 .main-wrapper-content article {
 	grid-area: content;
 }
+
+
+.content > div {
+  display:flex;
+}

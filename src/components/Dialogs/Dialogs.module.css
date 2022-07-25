@@ -1,0 +1,29 @@
+.dialogs{
+    
+}
+.dialogs .membersList ul{
+    list-style: none;
+    margin:0;
+   
+    border-right: 1px solid rgb(202, 202, 202);
+    background-color: antiquewhite;
+    padding: 0;
+}
+.dialogs .membersList ul li{
+    padding: 20px 60px 20px 60px;
+    border-bottom: 1px solid white;
+    
+}
+.dialogs .membersList ul li:hover{
+    opacity:0.4;
+}
+.dialogs .membersList ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.messages ul{
+    list-style: none;
+        margin: 0;
+        padding: 0 0 0 60px;
+       
+}
